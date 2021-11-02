@@ -42,7 +42,7 @@ module "ec2_instance" {
   for_each      = data.aws_subnet_ids.public.ids
   ami                    = "ami-087c17d1fe0178315"
   instance_type          = "t2.micro"
-  key_name               = "vockey" 
+  key_name               = "your-key-pair" 
   monitoring             = true
   vpc_security_group_ids = [module.meu_sg.security_group_id]
   #subnet_id              = data.aws_subnet.selected.id
