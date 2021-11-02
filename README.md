@@ -64,4 +64,5 @@ Projeto em desenvolvimento.
 
 ## Destruindo objetos criados
 Para fins de teste e necessidade de remoção dos objetos criados, executar o comando abaixo nos diretórios em que foram executadas as criações de VPC e EC2:
+
 terraform destroy
