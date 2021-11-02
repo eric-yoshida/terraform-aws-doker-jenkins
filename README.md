@@ -61,3 +61,7 @@ Utilizar os IP's em qualquer navegador para acessar a aplicação.
 Projeto em desenvolvimento.
   * Melhoria para acesso por loadbalancer
   * Melhoria para utilização de BD.
+
+## Destruindo objetos criados
+Para fins de teste e necessidade de remoção dos objetos criados, executar o comando abaixo nos diretórios em que foram executadas as criações de VPC e EC2:
+terraform destroy
